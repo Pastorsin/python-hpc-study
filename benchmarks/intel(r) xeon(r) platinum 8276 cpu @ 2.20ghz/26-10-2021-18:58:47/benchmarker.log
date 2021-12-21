@@ -1,0 +1,21 @@
+2021-10-26 18:58:47,299 [INFO] 
+Starting batch cython-5
+
+2021-10-26 18:58:47,299 [INFO] 
+Running
+
+2021-10-26 18:59:05,770 [INFO] 
+Benchmark(language='cython-5.0', label='float64 strict', threads=112, size=65536, time=15.758697501005372, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=545.0916607449302)
+
+2021-10-26 19:00:12,995 [INFO] 
+Benchmark(language='cython-5.0', label='float64 strict', threads=112, size=131072, time=62.01457824598765, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=554.0590509494125)
+
+2021-10-26 19:04:29,864 [INFO] 
+Benchmark(language='cython-5.0', label='float64 strict', threads=112, size=262144, time=246.51654758199584, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=557.5242506845725)
+
+2021-10-26 19:21:33,980 [INFO] 
+Benchmark(language='cython-5.0', label='float64 strict', threads=112, size=524288, time=1003.8176745699893, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=547.6650071174546)
+
+2021-10-26 19:37:46,862 [INFO] 
+Benchmark(language='cython-5.1', label='float32 relaxed', threads=112, size=65536, time=970.2165229039965, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=8.853626370213837)
+

@@ -1,0 +1,9 @@
+2021-10-26 17:06:31,051 [INFO] 
+Starting batch cython-3
+
+2021-10-26 17:06:31,051 [INFO] 
+Running
+
+2021-10-26 17:06:56,808 [INFO] 
+Benchmark(language='cython-2.0', label='dsquared ^ -1.5', threads=56, size=65536, time=23.077814682997996, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=372.2161179467491)
+

@@ -1,0 +1,60 @@
+2021-10-22 14:57:44,902 [INFO] 
+Starting batch python
+
+2021-10-22 14:57:44,902 [INFO] 
+Running
+
+2021-10-22 14:57:49,079 [INFO] 
+Benchmark(language='python-0', label='Naive', threads=1, size=256, time=3.721700525842607, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.03521830923521844)
+
+2021-10-22 14:58:04,787 [INFO] 
+Benchmark(language='python-0', label='Naive', threads=1, size=512, time=15.276908561121672, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.034318985277837215)
+
+2021-10-22 14:58:15,786 [INFO] 
+Benchmark(language='python-1', label='NumPy', threads=1, size=256, time=10.575072241947055, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.012394430695242925)
+
+2021-10-22 14:58:59,403 [INFO] 
+Benchmark(language='python-1', label='NumPy', threads=1, size=512, time=43.169542651157826, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.012144858800952304)
+
+2021-10-22 14:59:00,467 [INFO] 
+Benchmark(language='python-2', label='NumPy with broadcasting', threads=1, size=256, time=0.6281611141748726, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.20865984385577727)
+
+2021-10-22 14:59:02,435 [INFO] 
+Benchmark(language='python-2', label='NumPy with broadcasting', threads=1, size=512, time=1.5429091958794743, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.33980483193708)
+
+2021-10-22 14:59:02,435 [INFO] 
+Finish
+
+2021-10-22 14:59:02,437 [INFO] 
+   language                    label  threads  size       time  iterations sequential_time speedup efficiency    gflops
+0  python-0                    Naive        1   256   3.721701         100            None    None       None  0.035218
+1  python-0                    Naive        1   512  15.276909         100            None    None       None  0.034319
+2  python-1                    NumPy        1   256  10.575072         100            None    None       None  0.012394
+3  python-1                    NumPy        1   512  43.169543         100            None    None       None  0.012145
+4  python-2  NumPy with broadcasting        1   256   0.628161         100            None    None       None  0.208660
+5  python-2  NumPy with broadcasting        1   512   1.542909         100            None    None       None  0.339805
+
+2021-10-22 14:59:02,454 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-14:57:44/python/benchmark.json
+
+2021-10-22 14:59:02,886 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-14:57:44/python/plots
+
+2021-10-22 14:59:02,917 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-14:57:44/python/summaries/time-python-1.csv
+
+2021-10-22 14:59:02,917 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-14:57:44/python/summaries/time-python-0.csv
+
+2021-10-22 14:59:02,918 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-14:57:44/python/summaries/time-python-2.csv
+
+2021-10-22 14:59:02,918 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-14:57:44/python/summaries/gflops-python-1.csv
+
+2021-10-22 14:59:02,919 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-14:57:44/python/summaries/gflops-python-0.csv
+
+2021-10-22 14:59:02,919 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-14:57:44/python/summaries/gflops-python-2.csv
+

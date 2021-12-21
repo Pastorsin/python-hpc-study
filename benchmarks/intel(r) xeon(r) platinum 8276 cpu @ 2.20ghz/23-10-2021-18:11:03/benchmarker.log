@@ -1,0 +1,36 @@
+2021-10-23 18:11:03,020 [INFO] 
+Starting batch cpython
+
+2021-10-23 18:11:03,020 [INFO] 
+Running
+
+2021-10-23 18:11:03,846 [INFO] 
+Benchmark(language='python-2.0', label='CPython NumPy with broadcasting', threads=1, size=256, time=0.6298834169283509, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.20808930109507773)
+
+2021-10-23 18:11:05,618 [INFO] 
+Benchmark(language='python-2.0', label='CPython NumPy with broadcasting', threads=1, size=512, time=1.5644389709923416, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.3351284452262386)
+
+2021-10-23 18:11:10,171 [INFO] 
+Benchmark(language='python-2.0', label='CPython NumPy with broadcasting', threads=1, size=1024, time=4.299328150926158, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.4877859810603741)
+
+2021-10-23 18:11:10,171 [INFO] 
+Finish
+
+2021-10-23 18:11:10,172 [INFO] 
+     language                            label  threads  size      time  iterations sequential_time speedup efficiency    gflops
+0  python-2.0  CPython NumPy with broadcasting        1   256  0.629883         100            None    None       None  0.208089
+1  python-2.0  CPython NumPy with broadcasting        1   512  1.564439         100            None    None       None  0.335128
+2  python-2.0  CPython NumPy with broadcasting        1  1024  4.299328         100            None    None       None  0.487786
+
+2021-10-23 18:11:10,188 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/23-10-2021-18:11:03/cpython/benchmark.json
+
+2021-10-23 18:11:10,735 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/23-10-2021-18:11:03/cpython/plots
+
+2021-10-23 18:11:10,751 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/23-10-2021-18:11:03/cpython/summaries/time-python-2.0.csv
+
+2021-10-23 18:11:10,751 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/23-10-2021-18:11:03/cpython/summaries/gflops-python-2.0.csv
+

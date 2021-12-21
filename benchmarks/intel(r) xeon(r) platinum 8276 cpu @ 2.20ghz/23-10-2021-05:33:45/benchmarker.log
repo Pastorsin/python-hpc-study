@@ -1,0 +1,72 @@
+2021-10-23 05:33:45,696 [INFO] 
+Starting batch threading
+
+2021-10-23 05:33:45,696 [INFO] 
+Running
+
+2021-10-23 05:33:46,810 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=2, size=256, time=0.8812837528530508, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.14872848793100982)
+
+2021-10-23 05:33:49,235 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=2, size=512, time=2.214385694125667, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.23676453537016326)
+
+2021-10-23 05:33:54,403 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=2, size=1024, time=4.9378003920428455, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.42471380645104917)
+
+2021-10-23 05:33:56,315 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=4, size=256, time=1.7046008869074285, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.07689307274607685)
+
+2021-10-23 05:34:00,891 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=4, size=512, time=4.367370549123734, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.12004660335157334)
+
+2021-10-23 05:34:09,260 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=4, size=1024, time=8.136110105086118, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.25775855696557126)
+
+2021-10-23 05:34:12,214 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=8, size=256, time=2.7468695940915495, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.04771686296354684)
+
+2021-10-23 05:34:19,431 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=8, size=512, time=7.037583169061691, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.07449830252875043)
+
+2021-10-23 05:34:35,376 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=8, size=1024, time=15.705147967906669, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.13353277564054228)
+
+2021-10-23 05:34:39,166 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=16, size=256, time=3.6206902358680964, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.03620083228925387)
+
+2021-10-23 05:34:48,131 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=16, size=512, time=8.757101469906047, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.05987003825429294)
+
+2021-10-23 05:35:08,811 [INFO] 
+Benchmark(language='python-4', label='Threading', threads=16, size=1024, time=20.479715794092044, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.10240142104926002)
+
+2021-10-23 05:35:08,811 [INFO] 
+Finish
+
+2021-10-23 05:35:08,813 [INFO] 
+    language      label  threads  size       time  iterations sequential_time speedup efficiency    gflops
+0   python-4  Threading        2   256   0.881284         100            None    None       None  0.148728
+1   python-4  Threading        2   512   2.214386         100            None    None       None  0.236765
+2   python-4  Threading        2  1024   4.937800         100            None    None       None  0.424714
+3   python-4  Threading        4   256   1.704601         100            None    None       None  0.076893
+4   python-4  Threading        4   512   4.367371         100            None    None       None  0.120047
+5   python-4  Threading        4  1024   8.136110         100            None    None       None  0.257759
+6   python-4  Threading        8   256   2.746870         100            None    None       None  0.047717
+7   python-4  Threading        8   512   7.037583         100            None    None       None  0.074498
+8   python-4  Threading        8  1024  15.705148         100            None    None       None  0.133533
+9   python-4  Threading       16   256   3.620690         100            None    None       None  0.036201
+10  python-4  Threading       16   512   8.757101         100            None    None       None  0.059870
+11  python-4  Threading       16  1024  20.479716         100            None    None       None  0.102401
+
+2021-10-23 05:35:08,831 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/23-10-2021-05:33:45/threading/benchmark.json
+
+2021-10-23 05:35:09,410 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/23-10-2021-05:33:45/threading/plots
+
+2021-10-23 05:35:09,426 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/23-10-2021-05:33:45/threading/summaries/time-python-4.csv
+
+2021-10-23 05:35:09,426 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/23-10-2021-05:33:45/threading/summaries/gflops-python-4.csv
+

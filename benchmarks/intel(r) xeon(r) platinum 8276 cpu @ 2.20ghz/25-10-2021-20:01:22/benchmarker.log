@@ -1,0 +1,538 @@
+2021-10-25 20:01:22,637 [INFO] 
+Starting batch numba-0
+
+2021-10-25 20:01:22,637 [INFO] 
+Running
+
+2021-10-25 20:02:10,823 [INFO] 
+Benchmark(language='python-2.0', label='naive', threads=1, size=4096, time=47.8648457829986, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.7010245505046293)
+
+2021-10-25 20:05:00,894 [INFO] 
+Benchmark(language='python-2.0', label='naive', threads=1, size=8192, time=169.59168270499504, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.7914169248115306)
+
+2021-10-25 20:16:29,009 [INFO] 
+Benchmark(language='python-2.0', label='naive', threads=1, size=16384, time=687.362721892001, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.7810591044597754)
+
+2021-10-25 20:17:34,546 [INFO] 
+Benchmark(language='numba-0.0', label='njit', threads=1, size=4096, time=62.79084760499245, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.5343841225250814)
+
+2021-10-25 20:21:46,017 [INFO] 
+Benchmark(language='numba-0.0', label='njit', threads=1, size=8192, time=248.58135204200516, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.5399348217291857)
+
+2021-10-25 20:38:38,546 [INFO] 
+Benchmark(language='numba-0.0', label='njit', threads=1, size=16384, time=1009.3571864520054, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.5318938817755453)
+
+2021-10-25 20:39:16,479 [INFO] 
+Benchmark(language='numba-0.1', label='njit + ffastmath', threads=1, size=4096, time=35.20014875101333, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.9532468807829696)
+
+2021-10-25 20:41:39,364 [INFO] 
+Benchmark(language='numba-0.1', label='njit + ffastmath', threads=1, size=8192, time=139.97282122599427, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.9588842092658665)
+
+2021-10-25 20:51:16,562 [INFO] 
+Benchmark(language='numba-0.1', label='njit + ffastmath', threads=1, size=16384, time=574.0079698979971, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.9353021911793378)
+
+2021-10-25 20:51:56,791 [INFO] 
+Benchmark(language='numba-0.2', label='njit + ffastmath + svml', threads=1, size=4096, time=37.48813944098947, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.8950679468320489)
+
+2021-10-25 20:54:27,181 [INFO] 
+Benchmark(language='numba-0.2', label='njit + ffastmath + svml', threads=1, size=8192, time=147.48961234099988, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.9100147859205506)
+
+2021-10-25 21:04:30,384 [INFO] 
+Benchmark(language='numba-0.2', label='njit + ffastmath + svml', threads=1, size=16384, time=600.0664613760018, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.8946857499232848)
+
+2021-10-25 21:04:30,384 [INFO] 
+Finish
+
+2021-10-25 21:04:30,386 [INFO] 
+      language                    label  threads   size         time  iterations sequential_time speedup efficiency    gflops
+0   python-2.0                    naive        1   4096    47.864846         100            None    None       None  0.701025
+1   python-2.0                    naive        1   8192   169.591683         100            None    None       None  0.791417
+2   python-2.0                    naive        1  16384   687.362722         100            None    None       None  0.781059
+3    numba-0.0                     njit        1   4096    62.790848         100            None    None       None  0.534384
+4    numba-0.0                     njit        1   8192   248.581352         100            None    None       None  0.539935
+5    numba-0.0                     njit        1  16384  1009.357186         100            None    None       None  0.531894
+6    numba-0.1         njit + ffastmath        1   4096    35.200149         100            None    None       None  0.953247
+7    numba-0.1         njit + ffastmath        1   8192   139.972821         100            None    None       None  0.958884
+8    numba-0.1         njit + ffastmath        1  16384   574.007970         100            None    None       None  0.935302
+9    numba-0.2  njit + ffastmath + svml        1   4096    37.488139         100            None    None       None  0.895068
+10   numba-0.2  njit + ffastmath + svml        1   8192   147.489612         100            None    None       None  0.910015
+11   numba-0.2  njit + ffastmath + svml        1  16384   600.066461         100            None    None       None  0.894686
+
+2021-10-25 21:04:30,403 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/benchmark.json
+
+2021-10-25 21:04:30,991 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/plots
+
+2021-10-25 21:04:31,042 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/summaries/time-numba-0.1.csv
+
+2021-10-25 21:04:31,043 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/summaries/time-numba-0.2.csv
+
+2021-10-25 21:04:31,043 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/summaries/time-python-2.0.csv
+
+2021-10-25 21:04:31,043 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/summaries/time-numba-0.0.csv
+
+2021-10-25 21:04:31,044 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/summaries/gflops-numba-0.1.csv
+
+2021-10-25 21:04:31,044 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/summaries/gflops-numba-0.2.csv
+
+2021-10-25 21:04:31,045 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/summaries/gflops-python-2.0.csv
+
+2021-10-25 21:04:31,045 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-0/summaries/gflops-numba-0.0.csv
+
+2021-10-25 21:04:31,045 [INFO] 
+Starting batch numba-1
+
+2021-10-25 21:04:31,045 [INFO] 
+Running
+
+2021-10-25 21:04:38,131 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=56, size=4096, time=1.206463298003655, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=27.812227736660372)
+
+2021-10-25 21:04:48,611 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=56, size=8192, time=4.42819850599335, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=30.309781239107252)
+
+2021-10-25 21:05:28,647 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=56, size=16384, time=33.68119071700494, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=15.939784211041713)
+
+2021-10-25 21:05:35,659 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=112, size=4096, time=1.1438740890007466, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=29.33402576616813)
+
+2021-10-25 21:05:44,654 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=112, size=8192, time=2.923188418004429, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=45.914839828089605)
+
+2021-10-25 21:06:19,012 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=112, size=16384, time=28.020865465994575, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=19.15968343845529)
+
+2021-10-25 21:06:19,012 [INFO] 
+Finish
+
+2021-10-25 21:06:19,013 [INFO] 
+    language     label  threads   size       time  iterations sequential_time speedup efficiency     gflops
+0  numba-1.0  parallel       56   4096   1.206463         100            None    None       None  27.812228
+1  numba-1.0  parallel       56   8192   4.428199         100            None    None       None  30.309781
+2  numba-1.0  parallel       56  16384  33.681191         100            None    None       None  15.939784
+3  numba-1.0  parallel      112   4096   1.143874         100            None    None       None  29.334026
+4  numba-1.0  parallel      112   8192   2.923188         100            None    None       None  45.914840
+5  numba-1.0  parallel      112  16384  28.020865         100            None    None       None  19.159683
+
+2021-10-25 21:06:19,029 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-1/benchmark.json
+
+2021-10-25 21:06:19,481 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-1/plots
+
+2021-10-25 21:06:19,496 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-1/summaries/time-numba-1.0.csv
+
+2021-10-25 21:06:19,496 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-1/summaries/gflops-numba-1.0.csv
+
+2021-10-25 21:06:19,496 [INFO] 
+Starting batch numba-2
+
+2021-10-25 21:06:19,496 [INFO] 
+Running
+
+2021-10-25 21:06:56,216 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=56, size=16384, time=30.38345307399868, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=17.66984518489241)
+
+2021-10-25 21:09:41,984 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=56, size=32768, time=158.8395709799952, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=13.519827803302627)
+
+2021-10-25 21:23:22,438 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=56, size=65536, time=812.3519522069982, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=10.574153934957453)
+
+2021-10-25 21:23:58,973 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=112, size=16384, time=30.194806828993023, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=17.78023999426607)
+
+2021-10-25 21:27:41,494 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=112, size=32768, time=215.5709597469977, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=9.961841105686819)
+
+2021-10-25 21:43:13,888 [INFO] 
+Benchmark(language='numba-1.0', label='parallel', threads=112, size=65536, time=924.2112886349933, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=9.294340696364829)
+
+2021-10-25 21:43:17,995 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=56, size=16384, time=1.8834381399938138, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=285.04833824898725)
+
+2021-10-25 21:43:28,262 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=56, size=32768, time=7.391146686000866, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=290.5481029171592)
+
+2021-10-25 21:44:01,335 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=56, size=65536, time=28.948660517999087, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=296.72995013565935)
+
+2021-10-25 21:44:04,669 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=112, size=16384, time=1.0635014559957199, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=504.8144588550151)
+
+2021-10-25 21:44:11,450 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=112, size=32768, time=3.931060021990561, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=546.2861508058542)
+
+2021-10-25 21:44:31,396 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=112, size=65536, time=15.722149530993192, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=546.3587898758116)
+
+2021-10-25 21:44:31,396 [INFO] 
+Finish
+
+2021-10-25 21:44:31,398 [INFO] 
+     language                 label  threads   size        time  iterations sequential_time speedup efficiency      gflops
+0   numba-1.0              parallel       56  16384   30.383453         100            None    None       None   17.669845
+1   numba-1.0              parallel       56  32768  158.839571         100            None    None       None   13.519828
+2   numba-1.0              parallel       56  65536  812.351952         100            None    None       None   10.574154
+3   numba-1.0              parallel      112  16384   30.194807         100            None    None       None   17.780240
+4   numba-1.0              parallel      112  32768  215.570960         100            None    None       None    9.961841
+5   numba-1.0              parallel      112  65536  924.211289         100            None    None       None    9.294341
+6   numba-2.0  without broadcasting       56  16384    1.883438         100            None    None       None  285.048338
+7   numba-2.0  without broadcasting       56  32768    7.391147         100            None    None       None  290.548103
+8   numba-2.0  without broadcasting       56  65536   28.948661         100            None    None       None  296.729950
+9   numba-2.0  without broadcasting      112  16384    1.063501         100            None    None       None  504.814459
+10  numba-2.0  without broadcasting      112  32768    3.931060         100            None    None       None  546.286151
+11  numba-2.0  without broadcasting      112  65536   15.722150         100            None    None       None  546.358790
+
+2021-10-25 21:44:31,414 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-2/benchmark.json
+
+2021-10-25 21:44:31,877 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-2/plots
+
+2021-10-25 21:44:31,904 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-2/summaries/time-numba-2.0.csv
+
+2021-10-25 21:44:31,904 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-2/summaries/time-numba-1.0.csv
+
+2021-10-25 21:44:31,905 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-2/summaries/gflops-numba-2.0.csv
+
+2021-10-25 21:44:31,905 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-2/summaries/gflops-numba-1.0.csv
+
+2021-10-25 21:44:31,905 [INFO] 
+Starting batch numba-3
+
+2021-10-25 21:44:31,905 [INFO] 
+Running
+
+2021-10-25 21:44:52,123 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=112, size=65536, time=16.117949860999943, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=532.9421338370566)
+
+2021-10-25 21:46:02,033 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=112, size=131072, time=63.12929415599501, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=544.2756619945047)
+
+2021-10-25 21:50:25,796 [INFO] 
+Benchmark(language='numba-2.0', label='without broadcasting', threads=112, size=262144, time=251.87711004300218, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=545.6587676765685)
+
+2021-10-25 21:50:45,572 [INFO] 
+Benchmark(language='numba-3.0', label='1 / (dsquared ^ 1.5)', threads=112, size=65536, time=15.650281587004429, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=548.8677340561622)
+
+2021-10-25 21:51:54,679 [INFO] 
+Benchmark(language='numba-3.0', label='1 / (dsquared ^ 1.5)', threads=112, size=131072, time=62.41408350400161, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=550.5125836830891)
+
+2021-10-25 21:56:21,259 [INFO] 
+Benchmark(language='numba-3.0', label='1 / (dsquared ^ 1.5)', threads=112, size=262144, time=254.67955052200705, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=539.6544527831016)
+
+2021-10-25 21:56:41,702 [INFO] 
+Benchmark(language='numba-3.1', label='dsquared ^ 1.5', threads=112, size=65536, time=16.31532662299287, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=526.4947978359424)
+
+2021-10-25 21:57:53,304 [INFO] 
+Benchmark(language='numba-3.1', label='dsquared ^ 1.5', threads=112, size=131072, time=64.90822656999808, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=529.3587605716805)
+
+2021-10-25 22:02:24,821 [INFO] 
+Benchmark(language='numba-3.1', label='dsquared ^ 1.5', threads=112, size=262144, time=259.7387302999996, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=529.1430866442494)
+
+2021-10-25 22:02:44,694 [INFO] 
+Benchmark(language='numba-3.2', label='math.pow', threads=112, size=65536, time=15.749294993991498, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=545.4170866236958)
+
+2021-10-25 22:03:54,424 [INFO] 
+Benchmark(language='numba-3.2', label='math.pow', threads=112, size=131072, time=63.04766246100189, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=544.9803692445093)
+
+2021-10-25 22:08:18,997 [INFO] 
+Benchmark(language='numba-3.2', label='math.pow', threads=112, size=262144, time=252.6784076729964, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=543.928366249112)
+
+2021-10-25 22:08:38,988 [INFO] 
+Benchmark(language='numba-3.3', label='numpy.power', threads=112, size=65536, time=15.931344822995015, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=539.1845250629088)
+
+2021-10-25 22:09:48,364 [INFO] 
+Benchmark(language='numba-3.3', label='numpy.power', threads=112, size=131072, time=62.7031334029889, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=547.9748220423409)
+
+2021-10-25 22:14:09,434 [INFO] 
+Benchmark(language='numba-3.3', label='numpy.power', threads=112, size=262144, time=249.06725856098637, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=551.8146153214547)
+
+2021-10-25 22:14:29,168 [INFO] 
+Benchmark(language='numba-3.4', label='avx512', threads=112, size=65536, time=15.656605064999894, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=548.6460542587658)
+
+2021-10-25 22:15:38,906 [INFO] 
+Benchmark(language='numba-3.4', label='avx512', threads=112, size=131072, time=63.08108890699805, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=544.6915860735597)
+
+2021-10-25 22:20:04,061 [INFO] 
+Benchmark(language='numba-3.4', label='avx512', threads=112, size=262144, time=253.3563308820012, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=542.4729391743961)
+
+2021-10-25 22:20:04,061 [INFO] 
+Finish
+
+2021-10-25 22:20:04,062 [INFO] 
+     language                 label  threads    size        time  iterations sequential_time speedup efficiency      gflops
+0   numba-2.0  without broadcasting      112   65536   16.117950         100            None    None       None  532.942134
+1   numba-2.0  without broadcasting      112  131072   63.129294         100            None    None       None  544.275662
+2   numba-2.0  without broadcasting      112  262144  251.877110         100            None    None       None  545.658768
+3   numba-3.0  1 / (dsquared ^ 1.5)      112   65536   15.650282         100            None    None       None  548.867734
+4   numba-3.0  1 / (dsquared ^ 1.5)      112  131072   62.414084         100            None    None       None  550.512584
+5   numba-3.0  1 / (dsquared ^ 1.5)      112  262144  254.679551         100            None    None       None  539.654453
+6   numba-3.1        dsquared ^ 1.5      112   65536   16.315327         100            None    None       None  526.494798
+7   numba-3.1        dsquared ^ 1.5      112  131072   64.908227         100            None    None       None  529.358761
+8   numba-3.1        dsquared ^ 1.5      112  262144  259.738730         100            None    None       None  529.143087
+9   numba-3.2              math.pow      112   65536   15.749295         100            None    None       None  545.417087
+10  numba-3.2              math.pow      112  131072   63.047662         100            None    None       None  544.980369
+11  numba-3.2              math.pow      112  262144  252.678408         100            None    None       None  543.928366
+12  numba-3.3           numpy.power      112   65536   15.931345         100            None    None       None  539.184525
+13  numba-3.3           numpy.power      112  131072   62.703133         100            None    None       None  547.974822
+14  numba-3.3           numpy.power      112  262144  249.067259         100            None    None       None  551.814615
+15  numba-3.4                avx512      112   65536   15.656605         100            None    None       None  548.646054
+16  numba-3.4                avx512      112  131072   63.081089         100            None    None       None  544.691586
+17  numba-3.4                avx512      112  262144  253.356331         100            None    None       None  542.472939
+
+2021-10-25 22:20:04,079 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/benchmark.json
+
+2021-10-25 22:20:04,617 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/plots
+
+2021-10-25 22:20:04,690 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/time-numba-3.2.csv
+
+2021-10-25 22:20:04,690 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/time-numba-3.3.csv
+
+2021-10-25 22:20:04,691 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/time-numba-3.0.csv
+
+2021-10-25 22:20:04,691 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/time-numba-3.4.csv
+
+2021-10-25 22:20:04,692 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/time-numba-2.0.csv
+
+2021-10-25 22:20:04,692 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/time-numba-3.1.csv
+
+2021-10-25 22:20:04,693 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/gflops-numba-3.2.csv
+
+2021-10-25 22:20:04,693 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/gflops-numba-3.3.csv
+
+2021-10-25 22:20:04,694 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/gflops-numba-3.0.csv
+
+2021-10-25 22:20:04,694 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/gflops-numba-3.4.csv
+
+2021-10-25 22:20:04,695 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/gflops-numba-2.0.csv
+
+2021-10-25 22:20:04,695 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-3/summaries/gflops-numba-3.1.csv
+
+2021-10-25 22:20:04,695 [INFO] 
+Starting batch numba-5
+
+2021-10-25 22:20:04,695 [INFO] 
+Running
+
+2021-10-25 22:20:24,765 [INFO] 
+Benchmark(language='numba-2.0', label='float64 relaxed', threads=112, size=65536, time=15.856955498995376, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=541.7139874387752)
+
+2021-10-25 22:21:33,939 [INFO] 
+Benchmark(language='numba-2.0', label='float64 relaxed', threads=112, size=131072, time=62.30827285099076, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=551.4474530560454)
+
+2021-10-25 22:25:57,332 [INFO] 
+Benchmark(language='numba-2.0', label='float64 relaxed', threads=112, size=262144, time=251.5130911479937, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=546.4485082851178)
+
+2021-10-25 22:43:52,408 [INFO] 
+Benchmark(language='numba-2.0', label='float64 relaxed', threads=112, size=524288, time=1052.9024521920073, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=522.1336627562023)
+
+2021-10-25 22:47:08,869 [INFO] 
+Benchmark(language='numba-5.0', label='float64 strict', threads=112, size=65536, time=192.24530976399546, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=44.68215428790014)
+
+2021-10-25 22:59:54,951 [INFO] 
+Benchmark(language='numba-5.0', label='float64 strict', threads=112, size=131072, time=759.5067603789939, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=45.239542503682905)
+
+2021-10-25 23:51:11,225 [INFO] 
+Benchmark(language='numba-5.0', label='float64 strict', threads=112, size=262144, time=3064.465367345998, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=44.84924350475854)
+
+2021-10-26 03:09:29,662 [INFO] 
+Benchmark(language='numba-5.0', label='float64 strict', threads=112, size=524288, time=11876.231356103002, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=46.2904264327496)
+
+2021-10-26 03:09:39,625 [INFO] 
+Benchmark(language='numba-5.1', label='float32 relaxed', threads=112, size=65536, time=6.036790636993828, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1422.9306776617939)
+
+2021-10-26 03:10:09,156 [INFO] 
+Benchmark(language='numba-5.1', label='float32 relaxed', threads=112, size=131072, time=23.029265189994476, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1492.0032438954358)
+
+2021-10-26 03:11:59,736 [INFO] 
+Benchmark(language='numba-5.1', label='float32 relaxed', threads=112, size=262144, time=99.23623136199603, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1384.9674819940235)
+
+2021-10-26 03:19:12,223 [INFO] 
+Benchmark(language='numba-5.1', label='float32 relaxed', threads=112, size=524288, time=410.8689605949912, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1338.031992224194)
+
+2021-10-26 03:21:03,689 [INFO] 
+Benchmark(language='numba-5.2', label='float32 strict', threads=112, size=65536, time=107.55249113299942, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=79.86736989083485)
+
+2021-10-26 03:28:14,668 [INFO] 
+Benchmark(language='numba-5.2', label='float32 strict', threads=112, size=131072, time=424.51523855299456, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=80.93876319992383)
+
+2021-10-26 03:56:58,107 [INFO] 
+Benchmark(language='numba-5.2', label='float32 strict', threads=112, size=262144, time=1712.1632659040042, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=80.27210734452575)
+
+2021-10-26 05:50:58,933 [INFO] 
+Benchmark(language='numba-5.2', label='float32 strict', threads=112, size=524288, time=6819.595287941018, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=80.61414067490551)
+
+2021-10-26 05:50:58,933 [INFO] 
+Finish
+
+2021-10-26 05:50:58,934 [INFO] 
+     language            label  threads    size          time  iterations sequential_time speedup efficiency       gflops
+0   numba-2.0  float64 relaxed      112   65536     15.856955         100            None    None       None   541.713987
+1   numba-2.0  float64 relaxed      112  131072     62.308273         100            None    None       None   551.447453
+2   numba-2.0  float64 relaxed      112  262144    251.513091         100            None    None       None   546.448508
+3   numba-2.0  float64 relaxed      112  524288   1052.902452         100            None    None       None   522.133663
+4   numba-5.0   float64 strict      112   65536    192.245310         100            None    None       None    44.682154
+5   numba-5.0   float64 strict      112  131072    759.506760         100            None    None       None    45.239543
+6   numba-5.0   float64 strict      112  262144   3064.465367         100            None    None       None    44.849244
+7   numba-5.0   float64 strict      112  524288  11876.231356         100            None    None       None    46.290426
+8   numba-5.1  float32 relaxed      112   65536      6.036791         100            None    None       None  1422.930678
+9   numba-5.1  float32 relaxed      112  131072     23.029265         100            None    None       None  1492.003244
+10  numba-5.1  float32 relaxed      112  262144     99.236231         100            None    None       None  1384.967482
+11  numba-5.1  float32 relaxed      112  524288    410.868961         100            None    None       None  1338.031992
+12  numba-5.2   float32 strict      112   65536    107.552491         100            None    None       None    79.867370
+13  numba-5.2   float32 strict      112  131072    424.515239         100            None    None       None    80.938763
+14  numba-5.2   float32 strict      112  262144   1712.163266         100            None    None       None    80.272107
+15  numba-5.2   float32 strict      112  524288   6819.595288         100            None    None       None    80.614141
+
+2021-10-26 05:50:58,951 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/benchmark.json
+
+2021-10-26 05:50:59,575 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/plots
+
+2021-10-26 05:50:59,633 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/summaries/time-numba-5.1.csv
+
+2021-10-26 05:50:59,633 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/summaries/time-numba-2.0.csv
+
+2021-10-26 05:50:59,634 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/summaries/time-numba-5.0.csv
+
+2021-10-26 05:50:59,634 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/summaries/time-numba-5.2.csv
+
+2021-10-26 05:50:59,635 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/summaries/gflops-numba-5.1.csv
+
+2021-10-26 05:50:59,635 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/summaries/gflops-numba-2.0.csv
+
+2021-10-26 05:50:59,636 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/summaries/gflops-numba-5.0.csv
+
+2021-10-26 05:50:59,636 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-5/summaries/gflops-numba-5.2.csv
+
+2021-10-26 05:50:59,636 [INFO] 
+Starting batch numba-6
+
+2021-10-26 05:50:59,636 [INFO] 
+Running
+
+2021-10-26 06:03:23,187 [INFO] 
+Benchmark(language='numba-5.1', label='float32 default', threads=28, size=524288, time=722.1410925880191, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=761.2858754759096)
+
+2021-10-26 06:12:11,321 [INFO] 
+Benchmark(language='numba-5.1', label='float32 default', threads=56, size=524288, time=506.65857343102107, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1085.061701739557)
+
+2021-10-26 06:19:30,556 [INFO] 
+Benchmark(language='numba-5.1', label='float32 default', threads=112, size=524288, time=418.0271979800018, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1315.1197255693874)
+
+2021-10-26 06:32:06,744 [INFO] 
+Benchmark(language='numba-6.0', label='float32 workqueue', threads=28, size=524288, time=734.8492365739949, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=748.120548442106)
+
+2021-10-26 06:41:03,168 [INFO] 
+Benchmark(language='numba-6.0', label='float32 workqueue', threads=56, size=524288, time=515.1342284880229, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1067.2088622446915)
+
+2021-10-26 06:49:08,876 [INFO] 
+Benchmark(language='numba-6.0', label='float32 workqueue', threads=112, size=524288, time=464.54296440898906, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1183.4337316623066)
+
+2021-10-26 07:02:20,310 [INFO] 
+Benchmark(language='numba-6.1', label='float32 omp', threads=28, size=524288, time=769.686210305983, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=714.2596639082942)
+
+2021-10-26 07:11:04,270 [INFO] 
+Benchmark(language='numba-6.1', label='float32 omp', threads=56, size=524288, time=502.7130195189966, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1093.5778317697334)
+
+2021-10-26 07:18:28,472 [INFO] 
+Benchmark(language='numba-6.1', label='float32 omp', threads=112, size=524288, time=423.0282785779855, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1299.572254923502)
+
+2021-10-26 07:31:03,866 [INFO] 
+Benchmark(language='numba-6.2', label='float32 threading', threads=28, size=524288, time=734.5992605590145, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=748.3751256020153)
+
+2021-10-26 07:39:52,629 [INFO] 
+Benchmark(language='numba-6.2', label='float32 threading', threads=56, size=524288, time=508.31783424998866, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1081.5198225322001)
+
+2021-10-26 07:47:45,708 [INFO] 
+Benchmark(language='numba-6.2', label='float32 threading', threads=112, size=524288, time=452.3317613399995, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1215.3818521595497)
+
+2021-10-26 07:47:45,708 [INFO] 
+Finish
+
+2021-10-26 07:47:45,709 [INFO] 
+     language              label  threads    size        time  iterations sequential_time speedup efficiency       gflops
+0   numba-5.1    float32 default       28  524288  722.141093         100            None    None       None   761.285875
+1   numba-5.1    float32 default       56  524288  506.658573         100            None    None       None  1085.061702
+2   numba-5.1    float32 default      112  524288  418.027198         100            None    None       None  1315.119726
+3   numba-6.0  float32 workqueue       28  524288  734.849237         100            None    None       None   748.120548
+4   numba-6.0  float32 workqueue       56  524288  515.134228         100            None    None       None  1067.208862
+5   numba-6.0  float32 workqueue      112  524288  464.542964         100            None    None       None  1183.433732
+6   numba-6.1        float32 omp       28  524288  769.686210         100            None    None       None   714.259664
+7   numba-6.1        float32 omp       56  524288  502.713020         100            None    None       None  1093.577832
+8   numba-6.1        float32 omp      112  524288  423.028279         100            None    None       None  1299.572255
+9   numba-6.2  float32 threading       28  524288  734.599261         100            None    None       None   748.375126
+10  numba-6.2  float32 threading       56  524288  508.317834         100            None    None       None  1081.519823
+11  numba-6.2  float32 threading      112  524288  452.331761         100            None    None       None  1215.381852
+
+2021-10-26 07:47:45,726 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/benchmark.json
+
+2021-10-26 07:47:45,900 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/plots
+
+2021-10-26 07:47:45,929 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/summaries/time-numba-5.1.csv
+
+2021-10-26 07:47:45,930 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/summaries/time-numba-6.0.csv
+
+2021-10-26 07:47:45,930 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/summaries/time-numba-6.1.csv
+
+2021-10-26 07:47:45,931 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/summaries/time-numba-6.2.csv
+
+2021-10-26 07:47:45,931 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/summaries/gflops-numba-5.1.csv
+
+2021-10-26 07:47:45,931 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/summaries/gflops-numba-6.0.csv
+
+2021-10-26 07:47:45,932 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/summaries/gflops-numba-6.1.csv
+
+2021-10-26 07:47:45,932 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-10-2021-20:01:22/numba-6/summaries/gflops-numba-6.2.csv
+

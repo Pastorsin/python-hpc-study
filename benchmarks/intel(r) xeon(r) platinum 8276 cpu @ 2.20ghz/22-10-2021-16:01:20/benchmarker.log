@@ -1,0 +1,94 @@
+2021-10-22 16:01:20,909 [INFO] 
+Starting batch test
+
+2021-10-22 16:01:20,910 [INFO] 
+Running
+
+2021-10-22 16:01:24,894 [INFO] 
+Benchmark(language='python-0', label='CPython Naive', threads=1, size=256, time=3.754528327845037, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.03491037716453469)
+
+2021-10-22 16:01:40,183 [INFO] 
+Benchmark(language='python-0', label='CPython Naive', threads=1, size=512, time=15.121270294068381, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.03467221931782163)
+
+2021-10-22 16:01:51,290 [INFO] 
+Benchmark(language='python-1', label='CPython NumPy', threads=1, size=256, time=10.946401101071388, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.01197398110938683)
+
+2021-10-22 16:02:34,722 [INFO] 
+Benchmark(language='python-1', label='CPython NumPy', threads=1, size=512, time=43.22823898191564, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.012128368222895545)
+
+2021-10-22 16:02:35,523 [INFO] 
+Benchmark(language='python-2', label='CPython NumPy with broadcasting', threads=1, size=256, time=0.6157930348999798, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.21285073485978834)
+
+2021-10-22 16:02:37,259 [INFO] 
+Benchmark(language='python-2', label='CPython NumPy with broadcasting', threads=1, size=512, time=1.5699773649685085, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.33394621584911605)
+
+2021-10-22 16:02:38,030 [INFO] 
+Benchmark(language='python-0', label='PyPy Naive', threads=1, size=256, time=0.27137318905442953, iterations=100, sequential_time=3.754528327845037, speedup=13.835295745048668, efficiency=13.835295745048668, gflops=0.48299539264253105)
+
+2021-10-22 16:02:39,563 [INFO] 
+Benchmark(language='python-0', label='PyPy Naive', threads=1, size=512, time=1.0301792428363115, iterations=100, sequential_time=15.121270294068381, speedup=14.67829059769849, efficiency=14.67829059769849, gflops=0.5089289108141212)
+
+2021-10-22 16:04:09,010 [INFO] 
+Benchmark(language='python-1', label='PyPy NumPy', threads=1, size=256, time=88.88890971499495, iterations=100, sequential_time=10.946401101071388, speedup=0.12314698353449154, efficiency=0.12314698353449154, gflops=0.0014745596545199728)
+
+2021-10-22 16:10:05,846 [INFO] 
+Benchmark(language='python-1', label='PyPy NumPy', threads=1, size=512, time=356.13876452390105, iterations=100, sequential_time=43.22823898191564, speedup=0.12138032499692833, efficiency=0.12138032499692833, gflops=0.001472145276577479)
+
+2021-10-22 16:10:10,054 [INFO] 
+Benchmark(language='python-2', label='PyPy NumPy with broadcasting', threads=1, size=256, time=3.666124630952254, iterations=100, sequential_time=0.6157930348999798, speedup=0.1679683853901146, efficiency=0.1679683853901146, gflops=0.03575219426349803)
+
+2021-10-22 16:10:18,463 [INFO] 
+Benchmark(language='python-2', label='PyPy NumPy with broadcasting', threads=1, size=512, time=7.855211219983175, iterations=100, sequential_time=1.5699773649685085, speedup=0.19986443661433093, efficiency=0.19986443661433093, gflops=0.06674397229017133)
+
+2021-10-22 16:10:18,463 [INFO] 
+Finish
+
+2021-10-22 16:10:18,465 [INFO] 
+    language                            label  threads  size        time  iterations  sequential_time    speedup  efficiency    gflops
+0   python-0                    CPython Naive        1   256    3.754528         100              NaN        NaN         NaN  0.034910
+1   python-0                    CPython Naive        1   512   15.121270         100              NaN        NaN         NaN  0.034672
+2   python-1                    CPython NumPy        1   256   10.946401         100              NaN        NaN         NaN  0.011974
+3   python-1                    CPython NumPy        1   512   43.228239         100              NaN        NaN         NaN  0.012128
+4   python-2  CPython NumPy with broadcasting        1   256    0.615793         100              NaN        NaN         NaN  0.212851
+5   python-2  CPython NumPy with broadcasting        1   512    1.569977         100              NaN        NaN         NaN  0.333946
+6   python-0                       PyPy Naive        1   256    0.271373         100         3.754528  13.835296   13.835296  0.482995
+7   python-0                       PyPy Naive        1   512    1.030179         100        15.121270  14.678291   14.678291  0.508929
+8   python-1                       PyPy NumPy        1   256   88.888910         100        10.946401   0.123147    0.123147  0.001475
+9   python-1                       PyPy NumPy        1   512  356.138765         100        43.228239   0.121380    0.121380  0.001472
+10  python-2     PyPy NumPy with broadcasting        1   256    3.666125         100         0.615793   0.167968    0.167968  0.035752
+11  python-2     PyPy NumPy with broadcasting        1   512    7.855211         100         1.569977   0.199864    0.199864  0.066744
+
+2021-10-22 16:10:18,484 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-16:01:20/test/benchmark.json
+
+2021-10-22 16:10:19,250 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-16:01:20/test/plots
+
+2021-10-22 16:10:19,256 [ERROR] 
+Batch test
+Traceback (most recent call last):
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 24, in start
+    self.start_batch(benchmarks=[])
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 51, in start_batch
+    self.finish_batch(benchmarks)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 90, in finish_batch
+    self.store.save(benchmarks)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/store.py", line 40, in save
+    self.save_summaries(benchmarks)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/store.py", line 58, in save_summaries
+    summaries = self.benchmarker.build_summaries(benchmarks)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 106, in build_summaries
+    Summary(benchmarks, metric="time").generate()
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/summary.py", line 20, in generate
+    "df": self._summary_df(
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/summary.py", line 61, in _summary_df
+    return pd.DataFrame(summary_data).set_index("T/N")
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/frame.py", line 529, in __init__
+    mgr = init_dict(data, index, columns, dtype=dtype)
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 287, in init_dict
+    return arrays_to_mgr(arrays, data_names, index, columns, dtype=dtype)
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 80, in arrays_to_mgr
+    index = extract_index(arrays)
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 401, in extract_index
+    raise ValueError("arrays must all be same length")
+ValueError: arrays must all be same length

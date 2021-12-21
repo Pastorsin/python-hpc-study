@@ -1,0 +1,36 @@
+2021-10-26 15:08:40,371 [INFO] 
+Starting batch cython-2a
+
+2021-10-26 15:08:40,371 [INFO] 
+Running
+
+2021-10-26 15:09:18,273 [INFO] 
+Benchmark(language='cython-1.2', label='serial', threads=1, size=16384, time=37.14164806797635, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.454687390753989)
+
+2021-10-26 15:11:47,285 [INFO] 
+Benchmark(language='cython-1.2', label='serial', threads=1, size=32768, time=147.60948870002176, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.548411940943764)
+
+2021-10-26 15:21:44,011 [INFO] 
+Benchmark(language='cython-1.2', label='serial', threads=1, size=65536, time=594.0991616180108, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.45875562019912)
+
+2021-10-26 15:21:44,011 [INFO] 
+Finish
+
+2021-10-26 15:21:44,012 [INFO] 
+     language   label  threads   size        time  iterations sequential_time speedup efficiency     gflops
+0  cython-1.2  serial        1  16384   37.141648         100            None    None       None  14.454687
+1  cython-1.2  serial        1  32768  147.609489         100            None    None       None  14.548412
+2  cython-1.2  serial        1  65536  594.099162         100            None    None       None  14.458756
+
+2021-10-26 15:21:44,028 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-15:08:40/cython-2a/benchmark.json
+
+2021-10-26 15:21:44,566 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-15:08:40/cython-2a/plots
+
+2021-10-26 15:21:44,581 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-15:08:40/cython-2a/summaries/time-cython-1.2.csv
+
+2021-10-26 15:21:44,582 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-15:08:40/cython-2a/summaries/gflops-cython-1.2.csv
+

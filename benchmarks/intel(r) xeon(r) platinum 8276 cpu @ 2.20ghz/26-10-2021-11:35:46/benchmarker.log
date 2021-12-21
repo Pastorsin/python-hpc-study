@@ -1,0 +1,51 @@
+2021-10-26 11:35:54,027 [INFO] 
+Starting batch cpython
+
+2021-10-26 11:35:54,028 [INFO] 
+Running
+
+2021-10-26 11:35:58,013 [INFO] 
+Benchmark(language='python-0.0', label='CPython Naive', threads=1, size=256, time=3.8193850370007567, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.03431756650094821)
+
+2021-10-26 11:36:13,430 [INFO] 
+Benchmark(language='python-0.0', label='CPython Naive', threads=1, size=512, time=15.247277999995276, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.03438567854538774)
+
+2021-10-26 11:37:14,871 [INFO] 
+Benchmark(language='python-0.0', label='CPython Naive', threads=1, size=1024, time=61.2260128170019, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.034252630597850074)
+
+2021-10-26 11:37:26,161 [INFO] 
+Benchmark(language='python-1.0', label='CPython NumPy', threads=1, size=256, time=11.052122326014796, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.011859441665016594)
+
+2021-10-26 11:38:09,981 [INFO] 
+Benchmark(language='python-1.0', label='CPython NumPy', threads=1, size=512, time=43.6505348450155, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.012011032668019393)
+
+2021-10-26 11:39:07,879 [ERROR] 
+Batch cpython
+Traceback (most recent call last):
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 20, in start
+    self.current_batch_id = batch_id
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 35, in start_batch
+    process_time = self.execute(executor, threads, size, duration)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 68, in execute
+    result = process.execute(
+  File "/home/user09/andres-milla/python-hpc/src/core/process.py", line 25, in decorate
+    results = execute(*args, **kwargs)
+  File "/home/user09/andres-milla/python-hpc/src/core/process.py", line 25, in decorate
+    results = execute(*args, **kwargs)
+  File "/home/user09/andres-milla/python-hpc/src/core/process.py", line 41, in execute
+    process = subprocess.run(
+  File "/usr/lib/python3.8/subprocess.py", line 495, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1028, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1868, in _communicate
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.8/selectors.py", line 418, in select
+    for fd, event in fd_event_list:
+  File "/usr/lib/python3.8/selectors.py", line 418, in select
+    for fd, event in fd_event_list:
+  File "/usr/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/usr/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

@@ -1,0 +1,48 @@
+2021-10-26 14:51:49,899 [INFO] 
+Starting batch cython-2
+
+2021-10-26 14:51:49,899 [INFO] 
+Running
+
+2021-10-26 14:51:53,127 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=56, size=16384, time=2.3560502770124003, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=227.8690388053949)
+
+2021-10-26 14:52:03,865 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=56, size=32768, time=9.242200010019587, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=232.35632702948277)
+
+2021-10-26 14:52:32,238 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=56, size=65536, time=25.705811160994926, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=334.1631407078123)
+
+2021-10-26 14:52:34,553 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=112, size=16384, time=1.432577855011914, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=374.7586283857048)
+
+2021-10-26 14:52:41,227 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=112, size=32768, time=5.1469719750166405, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=417.2324346089056)
+
+2021-10-26 14:53:01,849 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=112, size=65536, time=17.888043407001533, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=480.2053749846015)
+
+2021-10-26 14:53:01,850 [INFO] 
+Finish
+
+2021-10-26 14:53:01,851 [INFO] 
+     language     label  threads   size       time  iterations sequential_time speedup efficiency      gflops
+0  cython-2.0  parallel       56  16384   2.356050         100            None    None       None  227.869039
+1  cython-2.0  parallel       56  32768   9.242200         100            None    None       None  232.356327
+2  cython-2.0  parallel       56  65536  25.705811         100            None    None       None  334.163141
+3  cython-2.0  parallel      112  16384   1.432578         100            None    None       None  374.758628
+4  cython-2.0  parallel      112  32768   5.146972         100            None    None       None  417.232435
+5  cython-2.0  parallel      112  65536  17.888043         100            None    None       None  480.205375
+
+2021-10-26 14:53:01,868 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-14:51:49/cython-2/benchmark.json
+
+2021-10-26 14:53:02,409 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-14:51:49/cython-2/plots
+
+2021-10-26 14:53:02,425 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-14:51:49/cython-2/summaries/time-cython-2.0.csv
+
+2021-10-26 14:53:02,426 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-14:51:49/cython-2/summaries/gflops-cython-2.0.csv
+

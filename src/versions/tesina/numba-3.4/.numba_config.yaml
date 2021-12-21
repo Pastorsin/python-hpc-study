@@ -1,0 +1,2 @@
+ENABLE_AVX: 1
+CPU_FEATURES: +avx512f,+avx512dq,+avx512cd,+avx512bw,+avx512vl

@@ -1,0 +1,58 @@
+2021-10-22 18:59:22,309 [INFO] 
+Starting batch blocks
+
+2021-10-22 18:59:22,309 [INFO] 
+Running
+
+2021-10-22 19:00:03,019 [INFO] 
+Benchmark(language='python-3.0', label='BS = 2', threads=1, size=256, time=40.5216713368427, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.0032346148536284104)
+
+2021-10-22 19:00:43,241 [INFO] 
+Benchmark(language='python-3.1', label='BS = 4', threads=1, size=256, time=40.03331985208206, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.0032740727095403052)
+
+2021-10-22 19:01:33,463 [INFO] 
+Benchmark(language='python-3.2', label='BS = 8', threads=1, size=256, time=49.99377910699695, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.0026217661945395045)
+
+2021-10-22 19:02:16,027 [INFO] 
+Benchmark(language='python-3.3', label='BS = 16', threads=1, size=256, time=42.37383516295813, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=0.0030932295718792764)
+
+2021-10-22 19:02:16,027 [INFO] 
+Finish
+
+2021-10-22 19:02:16,028 [INFO] 
+     language    label  threads  size       time  iterations sequential_time speedup efficiency    gflops
+0  python-3.0   BS = 2        1   256  40.521671         100            None    None       None  0.003235
+1  python-3.1   BS = 4        1   256  40.033320         100            None    None       None  0.003274
+2  python-3.2   BS = 8        1   256  49.993779         100            None    None       None  0.002622
+3  python-3.3  BS = 16        1   256  42.373835         100            None    None       None  0.003093
+
+2021-10-22 19:02:16,045 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/benchmark.json
+
+2021-10-22 19:02:16,318 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/plots
+
+2021-10-22 19:02:16,347 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/summaries/time-python-3.0.csv
+
+2021-10-22 19:02:16,348 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/summaries/time-python-3.3.csv
+
+2021-10-22 19:02:16,348 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/summaries/time-python-3.1.csv
+
+2021-10-22 19:02:16,349 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/summaries/time-python-3.2.csv
+
+2021-10-22 19:02:16,349 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/summaries/gflops-python-3.0.csv
+
+2021-10-22 19:02:16,350 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/summaries/gflops-python-3.3.csv
+
+2021-10-22 19:02:16,350 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/summaries/gflops-python-3.1.csv
+
+2021-10-22 19:02:16,350 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/22-10-2021-18:59:22/blocks/summaries/gflops-python-3.2.csv
+

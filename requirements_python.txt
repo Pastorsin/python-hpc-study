@@ -1,0 +1,12 @@
+Cython==0.29.22
+dataclasses-json==0.5.2
+icc-rt==2020.0.133
+jsons==1.4.2
+matplotlib==3.3.4
+numba==0.52.0
+numpy==1.20.1
+pandas==1.2.3
+parameterized==0.8.1
+py-cpuinfo==7.0.0
+PyYAML==6.0
+toml==0.10.2

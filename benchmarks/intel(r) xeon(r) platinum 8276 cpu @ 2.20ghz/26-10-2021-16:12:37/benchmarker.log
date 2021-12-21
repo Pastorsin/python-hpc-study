@@ -1,0 +1,174 @@
+2021-10-26 16:12:37,462 [INFO] 
+Starting batch cython-1
+
+2021-10-26 16:12:37,462 [INFO] 
+Running
+
+2021-10-26 16:12:41,598 [INFO] 
+Benchmark(language='cython-1.0', label='-O3', threads=1, size=4096, time=3.8381600529828575, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=8.742322242117783)
+
+2021-10-26 16:12:57,258 [INFO] 
+Benchmark(language='cython-1.0', label='-O3', threads=1, size=8192, time=15.210199289984303, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=8.824192598737378)
+
+2021-10-26 16:13:57,897 [INFO] 
+Benchmark(language='cython-1.0', label='-O3', threads=1, size=16384, time=59.867743354989216, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=8.967615645984736)
+
+2021-10-26 16:14:00,545 [INFO] 
+Benchmark(language='cython-1.1', label='-O3 -xCORE-AVX512 -qopt-zmm-usage=high', threads=1, size=4096, time=2.3160340290050954, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.48788384789582)
+
+2021-10-26 16:14:10,268 [INFO] 
+Benchmark(language='cython-1.1', label='-O3 -xCORE-AVX512 -qopt-zmm-usage=high', threads=1, size=8192, time=9.235556090978207, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.532717540539998)
+
+2021-10-26 16:14:47,891 [INFO] 
+Benchmark(language='cython-1.1', label='-O3 -xCORE-AVX512 -qopt-zmm-usage=high', threads=1, size=16384, time=36.83215994699276, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.57614521582881)
+
+2021-10-26 16:14:50,514 [INFO] 
+Benchmark(language='cython-1.2', label='-O3 -xCORE-AVX512 -qopt-zmm-usage=high -fp-model fast=2', threads=1, size=4096, time=2.3236446480150335, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.440431771124633)
+
+2021-10-26 16:15:00,246 [INFO] 
+Benchmark(language='cython-1.2', label='-O3 -xCORE-AVX512 -qopt-zmm-usage=high -fp-model fast=2', threads=1, size=8192, time=9.241774442984024, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.52293916368978)
+
+2021-10-26 16:15:37,860 [INFO] 
+Benchmark(language='cython-1.2', label='-O3 -xCORE-AVX512 -qopt-zmm-usage=high -fp-model fast=2', threads=1, size=16384, time=36.872329446981894, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.56026565319009)
+
+2021-10-26 16:15:40,442 [INFO] 
+Benchmark(language='cython-1.3', label='-O3 -march=native -ffast-math', threads=1, size=4096, time=2.2425282759941183, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.962768745970545)
+
+2021-10-26 16:15:49,908 [INFO] 
+Benchmark(language='cython-1.3', label='-O3 -march=native -ffast-math', threads=1, size=8192, time=8.942334379971726, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=15.009249519969794)
+
+2021-10-26 16:16:26,444 [INFO] 
+Benchmark(language='cython-1.3', label='-O3 -march=native -ffast-math', threads=1, size=16384, time=35.72539508101181, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=15.02771098213408)
+
+2021-10-26 16:16:26,445 [INFO] 
+Finish
+
+2021-10-26 16:16:26,446 [INFO] 
+      language                                              label  threads   size       time  iterations sequential_time speedup efficiency     gflops
+0   cython-1.0                                                -O3        1   4096   3.838160         100            None    None       None   8.742322
+1   cython-1.0                                                -O3        1   8192  15.210199         100            None    None       None   8.824193
+2   cython-1.0                                                -O3        1  16384  59.867743         100            None    None       None   8.967616
+3   cython-1.1             -O3 -xCORE-AVX512 -qopt-zmm-usage=high        1   4096   2.316034         100            None    None       None  14.487884
+4   cython-1.1             -O3 -xCORE-AVX512 -qopt-zmm-usage=high        1   8192   9.235556         100            None    None       None  14.532718
+5   cython-1.1             -O3 -xCORE-AVX512 -qopt-zmm-usage=high        1  16384  36.832160         100            None    None       None  14.576145
+6   cython-1.2  -O3 -xCORE-AVX512 -qopt-zmm-usage=high -fp-mod...        1   4096   2.323645         100            None    None       None  14.440432
+7   cython-1.2  -O3 -xCORE-AVX512 -qopt-zmm-usage=high -fp-mod...        1   8192   9.241774         100            None    None       None  14.522939
+8   cython-1.2  -O3 -xCORE-AVX512 -qopt-zmm-usage=high -fp-mod...        1  16384  36.872329         100            None    None       None  14.560266
+9   cython-1.3                      -O3 -march=native -ffast-math        1   4096   2.242528         100            None    None       None  14.962769
+10  cython-1.3                      -O3 -march=native -ffast-math        1   8192   8.942334         100            None    None       None  15.009250
+11  cython-1.3                      -O3 -march=native -ffast-math        1  16384  35.725395         100            None    None       None  15.027711
+
+2021-10-26 16:16:26,464 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/benchmark.json
+
+2021-10-26 16:16:27,091 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/plots
+
+2021-10-26 16:16:27,141 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/summaries/time-cython-1.2.csv
+
+2021-10-26 16:16:27,142 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/summaries/time-cython-1.3.csv
+
+2021-10-26 16:16:27,142 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/summaries/time-cython-1.0.csv
+
+2021-10-26 16:16:27,143 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/summaries/time-cython-1.1.csv
+
+2021-10-26 16:16:27,143 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/summaries/gflops-cython-1.2.csv
+
+2021-10-26 16:16:27,143 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/summaries/gflops-cython-1.3.csv
+
+2021-10-26 16:16:27,144 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/summaries/gflops-cython-1.0.csv
+
+2021-10-26 16:16:27,144 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-1/summaries/gflops-cython-1.1.csv
+
+2021-10-26 16:16:27,144 [INFO] 
+Starting batch cython-2a
+
+2021-10-26 16:16:27,144 [INFO] 
+Running
+
+2021-10-26 16:17:03,647 [INFO] 
+Benchmark(language='cython-1.3', label='serial', threads=1, size=16384, time=35.728083422989585, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=15.026580229449003)
+
+2021-10-26 16:19:32,891 [INFO] 
+Benchmark(language='cython-1.3', label='serial', threads=1, size=32768, time=147.81104061499354, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.52857404335306)
+
+2021-10-26 16:29:33,219 [INFO] 
+Benchmark(language='cython-1.3', label='serial', threads=1, size=65536, time=597.7167180510005, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=14.371247001438329)
+
+2021-10-26 16:29:33,219 [INFO] 
+Finish
+
+2021-10-26 16:29:33,220 [INFO] 
+     language   label  threads   size        time  iterations sequential_time speedup efficiency     gflops
+0  cython-1.3  serial        1  16384   35.728083         100            None    None       None  15.026580
+1  cython-1.3  serial        1  32768  147.811041         100            None    None       None  14.528574
+2  cython-1.3  serial        1  65536  597.716718         100            None    None       None  14.371247
+
+2021-10-26 16:29:33,235 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-2a/benchmark.json
+
+2021-10-26 16:29:33,645 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-2a/plots
+
+2021-10-26 16:29:33,659 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-2a/summaries/time-cython-1.3.csv
+
+2021-10-26 16:29:33,660 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-2a/summaries/gflops-cython-1.3.csv
+
+2021-10-26 16:29:33,660 [INFO] 
+Starting batch cython-2b
+
+2021-10-26 16:29:33,660 [INFO] 
+Running
+
+2021-10-26 16:29:36,502 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=56, size=16384, time=1.9090571319975425, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=281.2230723751284)
+
+2021-10-26 16:29:45,586 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=56, size=32768, time=7.560660714021651, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=284.0338601648102)
+
+2021-10-26 16:30:12,011 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=56, size=65536, time=23.72659694799222, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=362.03820593525495)
+
+2021-10-26 16:30:14,201 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=112, size=16384, time=1.2447315010067541, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=431.314634172729)
+
+2021-10-26 16:30:19,700 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=112, size=32768, time=3.9537574739952106, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=543.150069806887)
+
+2021-10-26 16:30:38,954 [INFO] 
+Benchmark(language='cython-2.0', label='parallel', threads=112, size=65536, time=16.36849305598298, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=524.7846923122971)
+
+2021-10-26 16:30:38,954 [INFO] 
+Finish
+
+2021-10-26 16:30:38,955 [INFO] 
+     language     label  threads   size       time  iterations sequential_time speedup efficiency      gflops
+0  cython-2.0  parallel       56  16384   1.909057         100            None    None       None  281.223072
+1  cython-2.0  parallel       56  32768   7.560661         100            None    None       None  284.033860
+2  cython-2.0  parallel       56  65536  23.726597         100            None    None       None  362.038206
+3  cython-2.0  parallel      112  16384   1.244732         100            None    None       None  431.314634
+4  cython-2.0  parallel      112  32768   3.953757         100            None    None       None  543.150070
+5  cython-2.0  parallel      112  65536  16.368493         100            None    None       None  524.784692
+
+2021-10-26 16:30:38,971 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-2b/benchmark.json
+
+2021-10-26 16:30:39,412 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-2b/plots
+
+2021-10-26 16:30:39,428 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-2b/summaries/time-cython-2.0.csv
+
+2021-10-26 16:30:39,428 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-16:12:37/cython-2b/summaries/gflops-cython-2.0.csv
+

@@ -1,0 +1,54 @@
+2021-08-05 18:08:57,871 [INFO] 
+Starting batch numba-3-56t
+
+2021-08-05 18:08:57,871 [INFO] 
+Running
+
+2021-08-05 18:09:24,557 [INFO] 
+Benchmark(language='numba-3.0', label='vectorize 56', threads=56, size=16384, time=21.195417914539576, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=25.32957425820412)
+
+2021-08-05 18:13:10,512 [INFO] 
+Benchmark(language='numba-3.0', label='vectorize 56', threads=56, size=32768, time=219.8596228491515, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=9.767521749427434)
+
+2021-08-05 18:26:36,541 [INFO] 
+Benchmark(language='numba-3.0', label='vectorize 56', threads=56, size=65536, time=798.771073336713, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=10.753937991416233)
+
+2021-08-05 18:26:40,240 [INFO] 
+Benchmark(language='numba-3.1', label='for 56', threads=56, size=16384, time=1.9053042195737362, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=281.77700258287956)
+
+2021-08-05 18:26:50,098 [INFO] 
+Benchmark(language='numba-3.1', label='for 56', threads=56, size=32768, time=7.408288457430899, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=289.8758141424639)
+
+2021-08-05 18:27:23,527 [INFO] 
+Benchmark(language='numba-3.1', label='for 56', threads=56, size=65536, time=29.734803484752774, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=288.8848616875741)
+
+2021-08-05 18:27:23,527 [INFO] 
+Finish
+
+2021-08-05 18:27:23,528 [INFO] 
+    language         label  threads   size        time  iterations sequential_time speedup efficiency      gflops
+0  numba-3.0  vectorize 56       56  16384   21.195418         100            None    None       None   25.329574
+1  numba-3.0  vectorize 56       56  32768  219.859623         100            None    None       None    9.767522
+2  numba-3.0  vectorize 56       56  65536  798.771073         100            None    None       None   10.753938
+3  numba-3.1        for 56       56  16384    1.905304         100            None    None       None  281.777003
+4  numba-3.1        for 56       56  32768    7.408288         100            None    None       None  289.875814
+5  numba-3.1        for 56       56  65536   29.734803         100            None    None       None  288.884862
+
+2021-08-05 18:27:23,545 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/05-08-2021-18:08:57/numba-3-56t/benchmark.json
+
+2021-08-05 18:27:24,086 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/05-08-2021-18:08:57/numba-3-56t/plots
+
+2021-08-05 18:27:24,113 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/05-08-2021-18:08:57/numba-3-56t/summaries/time-numba-3.0.csv
+
+2021-08-05 18:27:24,114 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/05-08-2021-18:08:57/numba-3-56t/summaries/time-numba-3.1.csv
+
+2021-08-05 18:27:24,114 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/05-08-2021-18:08:57/numba-3-56t/summaries/gflops-numba-3.0.csv
+
+2021-08-05 18:27:24,115 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/05-08-2021-18:08:57/numba-3-56t/summaries/gflops-numba-3.1.csv
+

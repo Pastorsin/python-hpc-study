@@ -1,0 +1,126 @@
+2021-10-26 18:20:34,375 [INFO] 
+Starting batch cython-4
+
+2021-10-26 18:20:34,375 [INFO] 
+Running
+
+2021-10-26 18:20:36,528 [INFO] 
+Benchmark(language='cython-2.0', label='BS=1', threads=112, size=16384, time=1.2312987880141009, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=436.02001173565014)
+
+2021-10-26 18:20:42,205 [INFO] 
+Benchmark(language='cython-2.0', label='BS=1', threads=112, size=32768, time=4.187609565997263, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=512.8184980369784)
+
+2021-10-26 18:21:00,664 [INFO] 
+Benchmark(language='cython-2.0', label='BS=1', threads=112, size=65536, time=15.742649760009954, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=545.647316236461)
+
+2021-10-26 18:21:05,557 [INFO] 
+Benchmark(language='cython-4.0', label='BS=4', threads=112, size=16384, time=3.918010619992856, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=137.0264055080532)
+
+2021-10-26 18:21:22,148 [INFO] 
+Benchmark(language='cython-4.0', label='BS=4', threads=112, size=32768, time=15.0221597259806, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=142.95438786248286)
+
+2021-10-26 18:22:21,351 [INFO] 
+Benchmark(language='cython-4.0', label='BS=4', threads=112, size=65536, time=56.451823793991935, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=152.16398717864294)
+
+2021-10-26 18:22:26,414 [INFO] 
+Benchmark(language='cython-4.1', label='BS=8', threads=112, size=16384, time=4.126578747003805, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=130.10073111771032)
+
+2021-10-26 18:22:42,964 [INFO] 
+Benchmark(language='cython-4.1', label='BS=8', threads=112, size=32768, time=14.985855451988755, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=143.30070477992032)
+
+2021-10-26 18:23:41,920 [INFO] 
+Benchmark(language='cython-4.1', label='BS=8', threads=112, size=65536, time=56.23641440999927, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=152.74683996340713)
+
+2021-10-26 18:23:46,981 [INFO] 
+Benchmark(language='cython-4.2', label='BS=16', threads=112, size=16384, time=4.158478750003269, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=129.10271863228303)
+
+2021-10-26 18:24:04,199 [INFO] 
+Benchmark(language='cython-4.2', label='BS=16', threads=112, size=32768, time=15.72696852000081, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=136.54784425039907)
+
+2021-10-26 18:25:04,086 [INFO] 
+Benchmark(language='cython-4.2', label='BS=16', threads=112, size=65536, time=57.15639523699065, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=150.2882495717774)
+
+2021-10-26 18:25:09,319 [INFO] 
+Benchmark(language='cython-4.3', label='BS=32', threads=112, size=16384, time=4.281799721997231, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=125.38440535690873)
+
+2021-10-26 18:25:26,538 [INFO] 
+Benchmark(language='cython-4.3', label='BS=32', threads=112, size=32768, time=15.74248557302053, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=136.41325177266523)
+
+2021-10-26 18:26:25,071 [INFO] 
+Benchmark(language='cython-4.3', label='BS=32', threads=112, size=65536, time=55.775462247023825, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=154.0092048714192)
+
+2021-10-26 18:26:30,970 [INFO] 
+Benchmark(language='cython-4.4', label='BS=64', threads=112, size=16384, time=4.987205620011082, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=107.64964449145914)
+
+2021-10-26 18:26:48,620 [INFO] 
+Benchmark(language='cython-4.4', label='BS=64', threads=112, size=32768, time=16.179173226992134, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=132.73135888163293)
+
+2021-10-26 18:27:47,874 [INFO] 
+Benchmark(language='cython-4.4', label='BS=64', threads=112, size=65536, time=56.49363521498162, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=152.05136931464492)
+
+2021-10-26 18:27:47,874 [INFO] 
+Finish
+
+2021-10-26 18:27:47,876 [INFO] 
+      language  label  threads   size       time  iterations sequential_time speedup efficiency      gflops
+0   cython-2.0   BS=1      112  16384   1.231299         100            None    None       None  436.020012
+1   cython-2.0   BS=1      112  32768   4.187610         100            None    None       None  512.818498
+2   cython-2.0   BS=1      112  65536  15.742650         100            None    None       None  545.647316
+3   cython-4.0   BS=4      112  16384   3.918011         100            None    None       None  137.026406
+4   cython-4.0   BS=4      112  32768  15.022160         100            None    None       None  142.954388
+5   cython-4.0   BS=4      112  65536  56.451824         100            None    None       None  152.163987
+6   cython-4.1   BS=8      112  16384   4.126579         100            None    None       None  130.100731
+7   cython-4.1   BS=8      112  32768  14.985855         100            None    None       None  143.300705
+8   cython-4.1   BS=8      112  65536  56.236414         100            None    None       None  152.746840
+9   cython-4.2  BS=16      112  16384   4.158479         100            None    None       None  129.102719
+10  cython-4.2  BS=16      112  32768  15.726969         100            None    None       None  136.547844
+11  cython-4.2  BS=16      112  65536  57.156395         100            None    None       None  150.288250
+12  cython-4.3  BS=32      112  16384   4.281800         100            None    None       None  125.384405
+13  cython-4.3  BS=32      112  32768  15.742486         100            None    None       None  136.413252
+14  cython-4.3  BS=32      112  65536  55.775462         100            None    None       None  154.009205
+15  cython-4.4  BS=64      112  16384   4.987206         100            None    None       None  107.649644
+16  cython-4.4  BS=64      112  32768  16.179173         100            None    None       None  132.731359
+17  cython-4.4  BS=64      112  65536  56.493635         100            None    None       None  152.051369
+
+2021-10-26 18:27:47,894 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/benchmark.json
+
+2021-10-26 18:27:48,523 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/plots
+
+2021-10-26 18:27:48,599 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/time-cython-4.1.csv
+
+2021-10-26 18:27:48,600 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/time-cython-4.2.csv
+
+2021-10-26 18:27:48,600 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/time-cython-2.0.csv
+
+2021-10-26 18:27:48,601 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/time-cython-4.0.csv
+
+2021-10-26 18:27:48,601 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/time-cython-4.4.csv
+
+2021-10-26 18:27:48,601 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/time-cython-4.3.csv
+
+2021-10-26 18:27:48,602 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/gflops-cython-4.1.csv
+
+2021-10-26 18:27:48,602 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/gflops-cython-4.2.csv
+
+2021-10-26 18:27:48,603 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/gflops-cython-2.0.csv
+
+2021-10-26 18:27:48,603 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/gflops-cython-4.0.csv
+
+2021-10-26 18:27:48,604 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/gflops-cython-4.4.csv
+
+2021-10-26 18:27:48,604 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/26-10-2021-18:20:34/cython-4/summaries/gflops-cython-4.3.csv
+

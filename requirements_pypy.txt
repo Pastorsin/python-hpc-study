@@ -1,0 +1,3 @@
+dataclasses==0.8
+jsons==1.4.2
+numpy==1.19.5

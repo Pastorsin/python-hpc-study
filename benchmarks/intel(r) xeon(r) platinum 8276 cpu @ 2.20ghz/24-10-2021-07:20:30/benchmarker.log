@@ -1,0 +1,83 @@
+2021-10-24 07:20:30,982 [INFO] 
+Starting batch layer
+
+2021-10-24 07:20:30,982 [INFO] 
+Running
+
+2021-10-24 07:32:27,315 [INFO] 
+Benchmark(language='numba-5.1', label='float32', threads=28, size=524288, time=695.6991211678833, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=790.2206530965778)
+
+2021-10-24 07:41:00,075 [INFO] 
+Benchmark(language='numba-5.1', label='float32', threads=56, size=524288, time=492.53655976592563, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1116.1726027998152)
+
+2021-10-24 07:48:08,994 [INFO] 
+Benchmark(language='numba-5.1', label='float32', threads=112, size=524288, time=408.4662613228429, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1345.902626345643)
+
+2021-10-24 08:00:07,042 [INFO] 
+Benchmark(language='numba-6.0', label='float32', threads=28, size=524288, time=697.8645371019375, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=787.7686637739221)
+
+2021-10-24 08:08:39,687 [INFO] 
+Benchmark(language='numba-6.0', label='float32', threads=56, size=524288, time=492.3283609710634, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1116.6446166206379)
+
+2021-10-24 08:16:24,963 [INFO] 
+Benchmark(language='numba-6.0', label='float32', threads=112, size=524288, time=445.03909879899584, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1235.2977870294942)
+
+2021-10-24 08:28:49,147 [INFO] 
+Benchmark(language='numba-6.1', label='float32', threads=28, size=524288, time=723.8429225869477, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=759.4960132002445)
+
+2021-10-24 08:37:22,063 [INFO] 
+Benchmark(language='numba-6.1', label='float32', threads=56, size=524288, time=492.7574735349044, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1115.672198625838)
+
+2021-10-24 08:44:27,744 [INFO] 
+Benchmark(language='numba-6.1', label='float32', threads=112, size=524288, time=405.36480771610513, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1356.2001521183315)
+
+2021-10-24 08:44:27,744 [INFO] 
+Finish
+
+2021-10-24 08:44:27,746 [INFO] 
+    language    label  threads    size        time  iterations sequential_time speedup efficiency       gflops
+0  numba-5.1  float32       28  524288  695.699121         100            None    None       None   790.220653
+1  numba-5.1  float32       56  524288  492.536560         100            None    None       None  1116.172603
+2  numba-5.1  float32      112  524288  408.466261         100            None    None       None  1345.902626
+3  numba-6.0  float32       28  524288  697.864537         100            None    None       None   787.768664
+4  numba-6.0  float32       56  524288  492.328361         100            None    None       None  1116.644617
+5  numba-6.0  float32      112  524288  445.039099         100            None    None       None  1235.297787
+6  numba-6.1  float32       28  524288  723.842923         100            None    None       None   759.496013
+7  numba-6.1  float32       56  524288  492.757474         100            None    None       None  1115.672199
+8  numba-6.1  float32      112  524288  405.364808         100            None    None       None  1356.200152
+
+2021-10-24 08:44:27,763 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/24-10-2021-07:20:30/layer/benchmark.json
+
+2021-10-24 08:44:27,767 [ERROR] 
+Batch layer
+Traceback (most recent call last):
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 24, in start
+    self.start_batch(benchmarks=[])
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 51, in start_batch
+    self.finish_batch(benchmarks)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 90, in finish_batch
+    self.store.save(benchmarks)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/store.py", line 39, in save
+    self.save_plots(benchmarks)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/store.py", line 80, in save_plots
+    plots = self.benchmarker.build_plots(benchmarks)
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/benchmarker.py", line 97, in build_plots
+    plotter.plot_times()
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/plot.py", line 39, in plot_times
+    return self.plot_bar("time")
+  File "/home/user09/andres-milla/python-hpc/src/benchmarker/plot.py", line 52, in plot_bar
+    pivot = size_df.pivot("threads", self.label, metric)
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/frame.py", line 6879, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/reshape/pivot.py", line 461, in pivot
+    return indexed.unstack(columns)
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/series.py", line 3829, in unstack
+    return unstack(self, level, fill_value)
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/reshape/reshape.py", line 430, in unstack
+    unstacker = _Unstacker(
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/reshape/reshape.py", line 118, in __init__
+    self._make_selectors()
+  File "/home/user09/andres-milla/python-hpc/venvs/python/lib/python3.8/site-packages/pandas/core/reshape/reshape.py", line 167, in _make_selectors
+    raise ValueError("Index contains duplicate entries, cannot reshape")
+ValueError: Index contains duplicate entries, cannot reshape
