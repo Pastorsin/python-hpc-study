@@ -14,11 +14,13 @@ Optimizaciones incrementales de N-Body (*all-pairs*) con el fin de evaluar y com
 - **PyConAr 2021** - [Acelerando aplicaciones paralelas en Python: Numba vs. Cython](https://eventos.python.org.ar/events/pyconar2021/activity/448/)
 ```
 @misc{milla_rucci_pycon,
-   address = {PyCon 2021},
-   type = {Conferencia},
-   title = {Acelerando aplicaciones paralelas en {Python}: {Numba} vs. {Cython}},
-   url = {https://eventos.python.org.ar/events/pyconar2021/activity/448/},
-   year = {2021},
+  address = {PyCon 2021},
+  type = {Conferencia},
+  title = {Acelerando aplicaciones paralelas en {Python}: {Numba} vs. {Cython}},
+  url = {https://eventos.python.org.ar/events/pyconar2021/activity/448/},
+  author={Milla, Andr{\'e}s and Rucci, Enzo},
+  month = oct,
+  year = {2021},
 }
 ```
 - **Tesina de grado** - Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida (*en proceso*)
