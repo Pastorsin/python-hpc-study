@@ -3,7 +3,24 @@
 Optimizaciones incrementales de N-Body (*all-pairs*) con el fin de evaluar y comparar las prestaciones de los traductores de Python en el ámbito de HPC. Este trabajo ha servido como base para las siguientes publicaciones:
 
 - **CACIC 2021** - [Acelerando código científico en Python usando Numba](http://sedici.unlp.edu.ar/handle/10915/126012)
+```
+@inproceedings{milla_rucci_cacic,
+  title={Acelerando c{\'o}digo cient{\'\i}fico en Python usando Numba},
+  author={Milla, Andr{\'e}s and Rucci, Enzo},
+  booktitle={XXVII Congreso Argentino de Ciencias de la Computaci{\'o}n (CACIC 2021)},
+  year={2021}
+}
+```
 - **PyConAr 2021** - [Acelerando aplicaciones paralelas en Python: Numba vs. Cython](https://eventos.python.org.ar/events/pyconar2021/activity/448/)
+```
+@misc{milla_rucci_pycon,
+   address = {PyCon 2021},
+   type = {Conferencia},
+   title = {Acelerando aplicaciones paralelas en {Python}: {Numba} vs. {Cython}},
+   url = {https://eventos.python.org.ar/events/pyconar2021/activity/448/},
+   year = {2021},
+}
+```
 - **Tesina de grado** - Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida (*en proceso*)
 
 ## Organización
