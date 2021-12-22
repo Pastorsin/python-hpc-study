@@ -4,7 +4,7 @@ Optimizaciones incrementales de N-Body (*all-pairs*) con el fin de evaluar y com
 
 - **CACIC 2021** - [Acelerando código científico en Python usando Numba](http://sedici.unlp.edu.ar/handle/10915/126012)
 - **PyConAr 2021** - [Acelerando aplicaciones paralelas en Python: Numba vs. Cython](https://eventos.python.org.ar/events/pyconar2021/activity/448/)
-- **Tesina de grado** - [Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida]()
+- **Tesina de grado** - Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida (*en proceso*)
 
 ## Organización
 
@@ -46,3 +46,8 @@ En entornos basados en Debian se pueden instalar con el siguiente comando:
 Los resultados podrán verse en el directorio `benchmarks`.
 
 - *Nota*: En caso de no disponer el compilador ICC, se puede optar por otro a través del `Makefile`.
+
+## Contacto
+
+- [andressmilla@gmail.com](mailto:andressmilla@gmail.com)
+- [erucci@lidi.info.unlp.edu.ar](mailto:erucci@lidi.info.unlp.edu.ar)
