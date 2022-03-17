@@ -24,6 +24,7 @@ Optimizaciones incrementales de N-Body (*all-pairs*) con el fin de evaluar y com
 }
 ```
 - **Tesina de grado** - Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida (*en proceso*)
+  - [Presentación](https://docs.google.com/presentation/d/12FppMCOUSMPD140URRJLe8UJ6pOpUX1LFrOkLnjcz9g/edit?usp=sharing)
 
 ## Organización
 
