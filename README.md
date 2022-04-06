@@ -23,8 +23,29 @@ Optimizaciones incrementales de N-Body (*all-pairs*) con el fin de evaluar y com
   year = {2021},
 }
 ```
-- **Tesina de grado** - Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida (*en proceso*)
+- **Tesina de grado** - [Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida](http://sedici.unlp.edu.ar/handle/10915/133463)
   - [Presentación](https://docs.google.com/presentation/d/12FppMCOUSMPD140URRJLe8UJ6pOpUX1LFrOkLnjcz9g/edit?usp=sharing)
+```
+@phdthesis{milla2022estudio,
+  title={Un estudio comparativo entre traductores de Python para aplicaciones paralelas de memoria compartida},
+  author={Milla, Andr{\'e}s},
+  year={2022},
+  school={Universidad Nacional de La Plata}
+}
+```
+- **Springer** - [Performance Comparison of Python Translators for a Multi-threaded CPU-bound Application](https://arxiv.org/abs/2203.08263)
+```
+@misc{https://doi.org/10.48550/arxiv.2203.08263,
+  doi = {10.48550/ARXIV.2203.08263},  
+  url = {https://arxiv.org/abs/2203.08263},  
+  author = {Milla, Andrés and Rucci, Enzo},  
+  keywords = {Distributed, Parallel, and Cluster Computing (cs.DC), Programming Languages (cs.PL), FOS: Computer and information sciences, FOS: Computer and information sciences},  
+  title = {Performance Comparison of Python Translators for a Multi-threaded CPU-bound Application},  
+  publisher = {arXiv},  
+  year = {2022},  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
 
 ## Organización
 
