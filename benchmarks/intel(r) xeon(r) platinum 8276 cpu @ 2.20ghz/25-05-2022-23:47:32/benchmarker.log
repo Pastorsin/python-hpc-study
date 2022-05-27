@@ -1,0 +1,212 @@
+2022-05-25 23:47:32,406 [INFO] 
+Starting batch numba-5
+
+2022-05-25 23:47:32,407 [INFO] 
+Running
+
+2022-05-25 23:48:10,303 [INFO] 
+Benchmark(language='numba-2.0', label='float64 relaxed', threads=112, size=65536, time=33.96276902174577, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=252.92209202671356)
+
+2022-05-25 23:50:31,483 [INFO] 
+Benchmark(language='numba-2.0', label='float64 relaxed', threads=112, size=131072, time=134.74727388564497, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=254.99394070977525)
+
+2022-05-25 23:59:28,714 [INFO] 
+Benchmark(language='numba-2.0', label='float64 relaxed', threads=112, size=262144, time=525.832038783934, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=261.37424754461205)
+
+2022-05-26 00:34:55,308 [INFO] 
+Benchmark(language='numba-2.0', label='float64 relaxed', threads=112, size=524288, time=2104.9855388822034, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=261.1684516274317)
+
+2022-05-26 00:38:12,469 [INFO] 
+Benchmark(language='numba-5.0', label='float64 strict', threads=112, size=65536, time=193.14849618915468, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=44.47321496921044)
+
+2022-05-26 00:51:02,202 [INFO] 
+Benchmark(language='numba-5.0', label='float64 strict', threads=112, size=131072, time=763.2547662127763, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=45.01739116349176)
+
+2022-05-26 01:42:50,913 [INFO] 
+Benchmark(language='numba-5.0', label='float64 strict', threads=112, size=262144, time=3097.176096738782, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=44.37556960894746)
+
+2022-05-26 05:03:26,924 [INFO] 
+Benchmark(language='numba-5.0', label='float64 strict', threads=112, size=524288, time=12014.231454947963, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=45.75871673103048)
+
+2022-05-26 05:04:06,067 [INFO] 
+Benchmark(language='numba-5.1', label='float32 relaxed', threads=112, size=65536, time=35.30005953973159, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=243.34051284904191)
+
+2022-05-26 05:06:29,979 [INFO] 
+Benchmark(language='numba-5.1', label='float32 relaxed', threads=112, size=131072, time=137.80635707685724, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=249.33347848994308)
+
+2022-05-26 05:15:50,436 [INFO] 
+Benchmark(language='numba-5.1', label='float32 relaxed', threads=112, size=262144, time=549.5221054470167, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=250.10632349393535)
+
+2022-05-26 05:53:08,802 [INFO] 
+Benchmark(language='numba-5.1', label='float32 relaxed', threads=112, size=524288, time=2217.7872859309427, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=247.88482528306739)
+
+2022-05-26 05:55:05,031 [INFO] 
+Benchmark(language='numba-5.2', label='float32 strict', threads=112, size=65536, time=112.27871907083318, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=76.50545591440952)
+
+2022-05-26 06:02:34,034 [INFO] 
+Benchmark(language='numba-5.2', label='float32 strict', threads=112, size=131072, time=442.7706419681199, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=77.60166350521936)
+
+2022-05-26 06:32:11,053 [INFO] 
+Benchmark(language='numba-5.2', label='float32 strict', threads=112, size=262144, time=1765.9849427710287, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=77.82566552144145)
+
+2022-05-26 08:31:32,731 [INFO] 
+Benchmark(language='numba-5.2', label='float32 strict', threads=112, size=524288, time=7141.026552759111, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=76.98554400075551)
+
+2022-05-26 08:31:32,731 [INFO] 
+Finish
+
+2022-05-26 08:31:32,733 [INFO] 
+     language            label  threads    size          time  iterations sequential_time speedup efficiency      gflops
+0   numba-2.0  float64 relaxed      112   65536     33.962769         100            None    None       None  252.922092
+1   numba-2.0  float64 relaxed      112  131072    134.747274         100            None    None       None  254.993941
+2   numba-2.0  float64 relaxed      112  262144    525.832039         100            None    None       None  261.374248
+3   numba-2.0  float64 relaxed      112  524288   2104.985539         100            None    None       None  261.168452
+4   numba-5.0   float64 strict      112   65536    193.148496         100            None    None       None   44.473215
+5   numba-5.0   float64 strict      112  131072    763.254766         100            None    None       None   45.017391
+6   numba-5.0   float64 strict      112  262144   3097.176097         100            None    None       None   44.375570
+7   numba-5.0   float64 strict      112  524288  12014.231455         100            None    None       None   45.758717
+8   numba-5.1  float32 relaxed      112   65536     35.300060         100            None    None       None  243.340513
+9   numba-5.1  float32 relaxed      112  131072    137.806357         100            None    None       None  249.333478
+10  numba-5.1  float32 relaxed      112  262144    549.522105         100            None    None       None  250.106323
+11  numba-5.1  float32 relaxed      112  524288   2217.787286         100            None    None       None  247.884825
+12  numba-5.2   float32 strict      112   65536    112.278719         100            None    None       None   76.505456
+13  numba-5.2   float32 strict      112  131072    442.770642         100            None    None       None   77.601664
+14  numba-5.2   float32 strict      112  262144   1765.984943         100            None    None       None   77.825666
+15  numba-5.2   float32 strict      112  524288   7141.026553         100            None    None       None   76.985544
+
+2022-05-26 08:31:32,751 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/benchmark.json
+
+2022-05-26 08:31:33,435 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/plots
+
+2022-05-26 08:31:33,496 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/summaries/time-numba-5.2.csv
+
+2022-05-26 08:31:33,496 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/summaries/time-numba-2.0.csv
+
+2022-05-26 08:31:33,497 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/summaries/time-numba-5.1.csv
+
+2022-05-26 08:31:33,497 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/summaries/time-numba-5.0.csv
+
+2022-05-26 08:31:33,497 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/summaries/gflops-numba-5.2.csv
+
+2022-05-26 08:31:33,498 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/summaries/gflops-numba-2.0.csv
+
+2022-05-26 08:31:33,498 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/summaries/gflops-numba-5.1.csv
+
+2022-05-26 08:31:33,499 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/numba-5/summaries/gflops-numba-5.0.csv
+
+2022-05-26 08:31:33,499 [INFO] 
+Starting batch cython-5
+
+2022-05-26 08:31:33,499 [INFO] 
+Running
+
+2022-05-26 08:31:51,297 [INFO] 
+Benchmark(language='cython-2.0', label='float64 relaxed', threads=112, size=65536, time=15.114125614985824, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=568.3381765388389)
+
+2022-05-26 08:32:56,713 [INFO] 
+Benchmark(language='cython-2.0', label='float64 relaxed', threads=112, size=131072, time=60.20914519717917, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=570.6730805673317)
+
+2022-05-26 08:37:07,123 [INFO] 
+Benchmark(language='cython-2.0', label='float64 relaxed', threads=112, size=262144, time=240.052202696912, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=572.5377727340804)
+
+2022-05-26 08:54:01,254 [INFO] 
+Benchmark(language='cython-2.0', label='float64 relaxed', threads=112, size=524288, time=993.5134234218858, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=553.3451294442667)
+
+2022-05-26 08:54:19,289 [INFO] 
+Benchmark(language='cython-5.0', label='float64 strict', threads=112, size=65536, time=15.309505062643439, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=561.0850616562523)
+
+2022-05-26 08:55:24,971 [INFO] 
+Benchmark(language='cython-5.0', label='float64 strict', threads=112, size=131072, time=60.355275712907314, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=569.2913827689131)
+
+2022-05-26 08:59:35,265 [INFO] 
+Benchmark(language='cython-5.0', label='float64 strict', threads=112, size=262144, time=240.0534527860582, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=572.5347912178923)
+
+2022-05-26 09:16:21,999 [INFO] 
+Benchmark(language='cython-5.0', label='float64 strict', threads=112, size=524288, time=986.3759598247707, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=557.3491612525349)
+
+2022-05-26 09:16:30,327 [INFO] 
+Benchmark(language='cython-5.1', label='float32 relaxed', threads=112, size=65536, time=5.779080101288855, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1486.3844143783829)
+
+2022-05-26 09:16:56,462 [INFO] 
+Benchmark(language='cython-5.1', label='float32 relaxed', threads=112, size=131072, time=21.045829159207642, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1632.615094804543)
+
+2022-05-26 09:18:33,439 [INFO] 
+Benchmark(language='cython-5.1', label='float32 relaxed', threads=112, size=262144, time=87.08032918721437, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1578.3008028887834)
+
+2022-05-26 09:25:26,903 [INFO] 
+Benchmark(language='cython-5.1', label='float32 relaxed', threads=112, size=524288, time=393.96695851394907, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1395.4363481691191)
+
+2022-05-26 09:25:35,497 [INFO] 
+Benchmark(language='cython-5.2', label='float32 strict', threads=112, size=65536, time=5.995196466334164, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1432.8028514555788)
+
+2022-05-26 09:26:01,341 [INFO] 
+Benchmark(language='cython-5.2', label='float32 strict', threads=112, size=131072, time=20.931892207358032, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1641.5017824294823)
+
+2022-05-26 09:27:40,272 [INFO] 
+Benchmark(language='cython-5.2', label='float32 strict', threads=112, size=262144, time=89.23301942273974, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1540.2252928468727)
+
+2022-05-26 09:34:29,563 [INFO] 
+Benchmark(language='cython-5.2', label='float32 strict', threads=112, size=524288, time=389.54905596375465, iterations=100, sequential_time=None, speedup=None, efficiency=None, gflops=1411.262087461333)
+
+2022-05-26 09:34:29,563 [INFO] 
+Finish
+
+2022-05-26 09:34:29,564 [INFO] 
+      language            label  threads    size        time  iterations sequential_time speedup efficiency       gflops
+0   cython-2.0  float64 relaxed      112   65536   15.114126         100            None    None       None   568.338177
+1   cython-2.0  float64 relaxed      112  131072   60.209145         100            None    None       None   570.673081
+2   cython-2.0  float64 relaxed      112  262144  240.052203         100            None    None       None   572.537773
+3   cython-2.0  float64 relaxed      112  524288  993.513423         100            None    None       None   553.345129
+4   cython-5.0   float64 strict      112   65536   15.309505         100            None    None       None   561.085062
+5   cython-5.0   float64 strict      112  131072   60.355276         100            None    None       None   569.291383
+6   cython-5.0   float64 strict      112  262144  240.053453         100            None    None       None   572.534791
+7   cython-5.0   float64 strict      112  524288  986.375960         100            None    None       None   557.349161
+8   cython-5.1  float32 relaxed      112   65536    5.779080         100            None    None       None  1486.384414
+9   cython-5.1  float32 relaxed      112  131072   21.045829         100            None    None       None  1632.615095
+10  cython-5.1  float32 relaxed      112  262144   87.080329         100            None    None       None  1578.300803
+11  cython-5.1  float32 relaxed      112  524288  393.966959         100            None    None       None  1395.436348
+12  cython-5.2   float32 strict      112   65536    5.995196         100            None    None       None  1432.802851
+13  cython-5.2   float32 strict      112  131072   20.931892         100            None    None       None  1641.501782
+14  cython-5.2   float32 strict      112  262144   89.233019         100            None    None       None  1540.225293
+15  cython-5.2   float32 strict      112  524288  389.549056         100            None    None       None  1411.262087
+
+2022-05-26 09:34:29,581 [INFO] 
+Data saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/benchmark.json
+
+2022-05-26 09:34:30,120 [INFO] 
+Plots saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/plots
+
+2022-05-26 09:34:30,179 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/summaries/time-cython-5.1.csv
+
+2022-05-26 09:34:30,179 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/summaries/time-cython-2.0.csv
+
+2022-05-26 09:34:30,179 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/summaries/time-cython-5.0.csv
+
+2022-05-26 09:34:30,180 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/summaries/time-cython-5.2.csv
+
+2022-05-26 09:34:30,180 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/summaries/gflops-cython-5.1.csv
+
+2022-05-26 09:34:30,181 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/summaries/gflops-cython-2.0.csv
+
+2022-05-26 09:34:30,181 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/summaries/gflops-cython-5.0.csv
+
+2022-05-26 09:34:30,182 [INFO] 
+Summary saved in /home/user09/andres-milla/python-hpc-study/benchmarks/intel(r) xeon(r) platinum 8276 cpu @ 2.20ghz/25-05-2022-23:47:32/cython-5/summaries/gflops-cython-5.2.csv
+
