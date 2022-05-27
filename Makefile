@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 
 # Compiler
-CC = icc
+CC = dpcpp
 
 # Interpreters
 PYPY = pypy3
@@ -47,7 +47,7 @@ pypy-install: $(PYPY_VENV)
 $(PYPY_VENV): requirements_pypy.txt
 	virtualenv -p $(PYPY) $(PYPY_VENV)
 
-	wget --no-check-certificate -O get-pip.py https://bootstrap.pypa.io/get-pip.py
+	wget --no-check-certificate -O get-pip.py https://bootstrap.pypa.io/pip/3.6/get-pip.py
 	$(PYPY_BIN) get-pip.py
 	rm get-pip.py
 
