@@ -7,11 +7,8 @@ src/versions/cacic/.numba_config.yaml
 .gitprod
 .gitdev
 
-# Pypy versions
-programs/nbody/pypy*
-
 # Cython
-programs/nbody/cython*/*c
+src/versions/tesina/cython*/*c
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
