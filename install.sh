@@ -5,10 +5,16 @@ install_cython_versions() {
     PY_BIN=$2
     COMPILER=$3
 
-    if [[ $COMPILER == "icc" ]]; then
-        export LDSHARED="icc -shared"
-        export CC=icc
-    fi
+    case $COMPILER in
+        icc)
+            export LDSHARED="icc -shared"
+            export CC=icc
+        ;;
+        dpcpp)
+            export LDSHARED="dpcpp -shared"
+            export CC=dpcpp
+        ;;
+    esac
 
     cython_versions=$(find $VERSIONS_DIR -type d -name "cython*")
 
