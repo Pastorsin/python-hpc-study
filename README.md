@@ -1,6 +1,6 @@
 # Python HPC
 
-Optimizaciones incrementales de N-Body (*all-pairs*) con el fin de evaluar y comparar las prestaciones de los traductores de Python en el ámbito de HPC. Este trabajo ha servido como base para las siguientes publicaciones:
+Incremental N-Body optimizations (*all-pairs*) in order to evaluate and compare the performance of Python translators in the HPC environment. This work has served as the basis for the following publications:
 
 - **Springer** - [Performance Comparison of Python Translators for a Multi-threaded CPU-bound Application](https://link.springer.com/chapter/10.1007/978-3-031-05903-2_2)
 ```
@@ -20,7 +20,7 @@ Optimizaciones incrementales de N-Body (*all-pairs*) con el fin de evaluar y com
 }
 
 ```
-- **Tesina de grado** - [Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida](http://sedici.unlp.edu.ar/handle/10915/133463)
+- **Bachelor thesis** - [Un Estudio Comparativo entre Traductores de Python para Aplicaciones Paralelas de Memoria Compartida](http://sedici.unlp.edu.ar/handle/10915/133463)
   - [Presentación](https://docs.google.com/presentation/d/12FppMCOUSMPD140URRJLe8UJ6pOpUX1LFrOkLnjcz9g/edit?usp=sharing)
 ```
 @phdthesis{milla2022estudio,
@@ -52,21 +52,21 @@ Optimizaciones incrementales de N-Body (*all-pairs*) con el fin de evaluar y com
 }
 ```
 
-## Organización
+## Structure
 
-El código fuente se encuentra en el directorio `src`, el cual contiene los siguientes subdirectorios:
+The source code is located in the `src` directory, which contains the following subdirectories:
 
-- `versions`: Contiene el código fuente de cada versión probada.
-- `benchmarker`: Script para realizar los benchmarks.
-- `test`: Tests de las versiones desarrolladas.
-- `core`: Utilidades comunes a los módulos.
+- `versions`: Contains the source code for each tested version.
+- `benchmarker`: Script to run the benchmarks.
+- `test`: Tests of the developed versions.
+- `core`: Utils common to the modules.
 
 
-## Contribución
+## Contribution
 
-### Requisitos
+### Requirements
 
-| Paquete     | Versión     |
+| Package     | Version     |
 | ----------- | ----------- |
 | Python      | 3.8.10      |
 | PyPy        | 7.3.1       |
@@ -75,25 +75,25 @@ El código fuente se encuentra en el directorio `src`, el cual contiene los sigu
 | Virtualenv  | 20.0.17     |
 
 
-En entornos basados en Debian se pueden instalar con el siguiente comando:
+In Debian-based environments they can be installed with the following command:
 
 ```apt-get install python3 python3-pip cython pypy3 virtualenv```
 
-### Ejecución
+### Execution
 
-1. Instalar las dependencias:
+1. Install the dependencies:
 
    ```make install```
 
-2. Configurar los parámetros del benchmark en el archivo `config.toml` y ejecutar:
+2. Configure the benchmark parameters in the `config.toml` file and run:
 
    ```make benchmark```
 
-Los resultados podrán verse en el directorio `benchmarks`.
+The results will be visible in the `benchmarks` directory.
 
-- *Nota*: En caso de no disponer el compilador ICC, se puede optar por otro a través del `Makefile`.
+- *Note*: If you don't have the ICC compiler, you can choose another through the `Makefile`.
 
-## Contacto
+## Contact
 
 - [andressmilla@gmail.com](mailto:andressmilla@gmail.com)
 - [erucci@lidi.info.unlp.edu.ar](mailto:erucci@lidi.info.unlp.edu.ar)
