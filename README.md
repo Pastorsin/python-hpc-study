@@ -51,6 +51,15 @@ Incremental N-Body optimizations (*all-pairs*) in order to evaluate and compare 
   year={2021}
 }
 ```
+- **CACIC 2022** - [Comparación de Rendimiento y Esfuerzo de Programación entre Numba y Cython para una Aplicación Multi-hilada de Alto Rendimiento](http://sedici.unlp.edu.ar/handle/10915/149611)
+```
+@inproceedings{milla2023comparacion,
+  title={Comparaci{\'o}n de Rendimiento y Esfuerzo de Programaci{\'o}n entre Numba y Cython para una Aplicaci{\'o}n Multi-hilada de Alto Rendimiento},
+  author={Milla, Andr{\'e}s and Rucci, Enzo},
+  booktitle={XXVIII Congreso Argentino de Ciencias de la Computaci{\'o}n (CACIC)(La Rioja, 3 al 6 de octubre de 2022)},
+  year={2023}
+}
+```
 
 ## Structure
 
